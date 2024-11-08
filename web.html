@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            align-items: center;
+            background-color: #e6e0ad;
+            height: 300px;
+            position: relative;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+        .grid-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .grid-item {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .grid-item img {
+            width: 100px;
+            height: 100px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SKADOOSHH BAKERY</h1>
+</header>
+
+<nav>
+    <a href="#">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">SERVICES</a>
+    <a href="#">GALLERY</a>
+    <a href="#">CONTACT</a>
+</nav>
+
+<div class="hero">
+    <img src= "cake1.jpg" alt="Hero Image" width="600px" height="300px">
+</div>
+
+<div class="content">
+    <h2>Welcome To Our Bakery.</h2>
+    <p>This is a great place for you sweet.</p>
+</div>
+
+<div class="grid-gallery">
+    <div class="grid-item">
+        <img src="cake 2.jfif.jpg" alt="Image 1" width="100px">
+        <h3>Red Cake.</h3>
+        <p>This is our new menu.</p>
+    </div>
+    <div class="grid-item">
+        <img src="cake.jpg" alt="Image 2" width="100px">
+        <h3>Star Cake.</h3>
+        <p>This is our special menu</p>
+    </div>
+    <div class="grid-item">
+        <img src="pink cake.jfif.jpg" alt="Image 3" width="100px">
+        <h3>Pink Cake.</h3>
+        <p>This is our new menu.</p>
+    </div>
+</div>
+
+<footer>
+    <p>Copyright 2024. Website.com. All Rights Reserved.</p>
+    <p>This website is created and hosted by SkadosshhTeam.</p>
+</footer>
+
+</body>
+</html>
